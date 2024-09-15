@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+# source 'https://gems.ruby-china.org'
 
 ruby "3.2.1"
 
@@ -10,6 +11,10 @@ gem "sprockets-rails"
 
 # Use mysql as the database for Active Record
 gem "mysql2", "~> 0.5"
+
+gem 'pg', '>= 1.1', '< 2.0' #postgres
+
+gem 'figaro' # to generate application.yml
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
