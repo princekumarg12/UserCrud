@@ -22,9 +22,9 @@ test:
 
 production:
   <<: *default
-  database: user_crud_production
-  username: 'postgres'
-  password: 'password'
+#  database: user_crud_production
+#  username: 'postgres'
+#  password: 'password'
 #  password: <%#= ENV["USER_CRUD_DATABASE_PASSWORD"] %>
 #  host: <%#= ENV["PRODUCTION_DB_HOST"] %>  # If using an external PostgreSQL host
-#  url: <%= ENV["DATABASE_URL"] %>
+  url: <%= ENV["DATABASE_URL"] %>
