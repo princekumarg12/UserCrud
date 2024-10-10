@@ -1,24 +1,36 @@
-# README
+# User Posts CRUD Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+This Rails application allows users to perform CRUD (Create, Read, Update, Delete) operations on user profiles and their associated posts. Each user can manage their own posts seamlessly.
 
-* Ruby version
+## Features
 
-* System dependencies
+- User management with full CRUD operations.
+- Each user can create, read, update, and delete their own posts.
+- User details include name, address, contact information, and email.
 
-* Configuration
+## Ruby Version
 
-* Database creation
+- Ruby: `3.2.1`
 
-* Database initialization
+## Rails Version
 
-* How to run the test suite
+- Rails: `7.1.4`
 
-* Services (job queues, cache servers, search engines, etc.)
+## System Dependencies
 
-* Deployment instructions
+- Ruby
+- Rails
+- SQLite3 (or your preferred database)
 
-* ...
+## Configuration
+
+Ensure you have Ruby and Rails installed on your machine. You can install Ruby using a version manager like RVM or rbenv.
+
+## Database Creation
+
+To create the database, run the following command:
+
+```bash
+rails db:create
