@@ -22,7 +22,7 @@ This Rails application allows users to perform CRUD (Create, Read, Update, Delet
 
 - Ruby
 - Rails
-- SQLite3 (or your preferred database)
+- postgresql
 
 ## Configuration
 
