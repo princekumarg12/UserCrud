@@ -1,5 +1,5 @@
 # User Posts CRUD Application
-hi this is test by devesh 
+
 ## Overview
 
 This Rails application allows users to perform CRUD (Create, Read, Update, Delete) operations on user profiles and their associated posts. Each user can manage their own posts seamlessly.
